@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model DOT503.Models.CalculatorModel
+
+<!-- about section -->
+
+<section class="about_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 px-0">
+                <div class="img_container">
+                    <div class="img-box">
+                        <img src="~/images/main.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 px-0">
+                <div class="detail-box">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <h1>Calculator</h1>
+                            <form asp-action="Calculate" method="post">
+                                <input asp-for="FirstNumber" type="number" placeholder="First Number" />
+                                <select asp-for="Operator">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                    <option value="*">*</option>
+                                    <option value="/">/</option>
+                                </select>
+                                <input asp-for="SecondNumber" type="number" placeholder="Second Number" />
+                                <button type="submit">Calculate</button>
+                            </form>
+                            @if (Model.Result.HasValue)
+                            {
+                                <p>Result: @Model.Result</p>
+                            }
+                         @*    @Html.ValidationSummary(true) *@
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- end about section -->
+<!-- service section -->
