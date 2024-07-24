@@ -6,11 +6,16 @@ namespace DOT503.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        //private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
+
+        public HomeController()
         {
-            _logger = logger;
+            
         }
 
         [HttpGet]
@@ -44,6 +49,9 @@ namespace DOT503.Controllers
                         {
                             model.Result = model.FirstNumber / model.SecondNumber;
                         }
+                        break;
+                    case "%":
+                        model.Result = model.FirstNumber % model.SecondNumber;
                         break;
                     default:
                         ModelState.AddModelError("Operator", "Invalid operator.");
