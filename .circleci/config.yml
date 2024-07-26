@@ -34,7 +34,7 @@ jobs:
       - attach_workspace:
           at: ~/project
       - run:
-          command: az webapp deployment source show --resource-group demoRG --name dotnet-core-deploy-sample
+          command: az webapp deployment source show --resource-group DOT503s --name assessment503
       - run:
           name: "Deploy Web App to Azure"
           command: |
