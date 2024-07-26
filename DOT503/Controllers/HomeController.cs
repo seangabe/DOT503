@@ -15,7 +15,7 @@ namespace DOT503.Controllers
 
         public HomeController()
         {
-            //CircleCI
+            //CircleCI 2.0
         }
 
         [HttpGet]
