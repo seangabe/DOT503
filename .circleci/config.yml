@@ -39,6 +39,14 @@ jobs:
           name: "Deploy Web App to Azure"
           command: |
             az webapp deployment source config-local-git --resource-group DOT503s --name assessment503
+            cd ~/project/WebAPIFolder/
+            git init
+            git config --global user.email "adegbie@gmail.com"
+            git config --global user.name "seangabe"
+            git add .
+            git commit -m "Deploy Azure Web Application"
+            git remote add azure https://$GIT_USERNAME:$GIT_PASSWORD@assessment503-hhhkachwbzgag8hs.scm.eastus-01.azurewebsites.net/assessment503.git
+            git push azure master --force
 workflows:
   build-and-deploy:
     jobs:
