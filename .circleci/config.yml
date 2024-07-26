@@ -27,7 +27,7 @@ jobs:
           paths:
             - WebAPIFolder
   login-to-azure-and-deploy:
-    executor: azure-cli/azure-docker
+    executor: azure-cli/default
     steps:
       - azure-cli/install
       - azure-cli/login-with-service-principal
