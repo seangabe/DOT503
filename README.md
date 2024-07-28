@@ -11,7 +11,7 @@ Deployment Target: Azure Web App Service (PAAS)
 ## Development Workflow:
 Development: The application was developed using Visual Studio 2022 IDE.  
 Version Control: Git commands were used to commit changes to a local repository and push them to the master branch on GitHub. Other branches exist.  
-Test Cases are present in the [DOT503TestProject folder](https://github.com/seangabe/DOT503/blob/master/DOT503TestProject).   
+Test Cases are present in the [DOT503TestProject Test File]([https://github.com/seangabe/DOT503/blob/master/DOT503TestProject](https://github.com/seangabe/DOT503/blob/master/DOT503TestProject/UnitTest1.cs)).   
 
 ## Unit Test
 Test Cases were designed using the MSTest Unit Testing framework and can be run from the Visual Studio IDE.
