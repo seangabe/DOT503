@@ -34,15 +34,15 @@ Once the changes are committed or pushed to the master branch, CircleCI will aut
 The pipeline will build the application and deploy it to the Azure Web App service endpoint specified in the configuration and also in the configuration report.
 
 ## The deployment endpoint is: 
-[Click](assessment503-hhhkachwbzgag8hs.eastus-01.azurewebsites.net)    
-Click the endpoint link or copy and paste to a browser to view the calculator application.
+assessment503-hhhkachwbzgag8hs.eastus-01.azurewebsites.net   
+Copy and paste endpoint link to a browser to view the calculator application.
 
 ## Getting Started:
 Make changes to any of the files in the DOT503/Controllers or any other files within the master branch will automatically trigger the circleCI build and deploy process.
 
 ## CircleCI Pipeline Configuration
 
-The CircleCI pipeline is configured to automate the build and deployment process. The configuration is defined in the `.circleci/config.yml` file located in the root directory of the master branch.
+The CircleCI pipeline is configured to automate the build and deployment process. The configuration is defined in the [.circleci/config.yml](https://github.com/seangabe/DOT503/blob/master/.circleci/config.yml) file located in the root directory of the master branch.
 The config.yml file defines the CircleCI pipeline stages. This file can be reviewed for a detailed understanding of the build and deployment process.
 
 ## Conclusion
