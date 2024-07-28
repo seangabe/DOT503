@@ -34,7 +34,8 @@ Once the changes are committed or pushed to the master branch, CircleCI will aut
 The pipeline will build the application and deploy it to the Azure Web App service endpoint specified in the configuration and also in the configuration report.
 
 ## The deployment endpoint is: 
-assessment503-hhhkachwbzgag8hs.eastus-01.azurewebsites.net
+assessment503-hhhkachwbzgag8hs.eastus-01.azurewebsites.net..
+copy and paste this endpoint link to a browser to view the calculator application.
 
 ## Getting Started:
 Make changes to any of the files in the DOT503/Controllers or any other files within the master branch will automatically trigger the circleCI build and deploy process.
