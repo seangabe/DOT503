@@ -2,11 +2,13 @@
 This DOT503 Assesment repository demonstrates the implementation of the first three stages of a DevOps CI/CD pipeline, within the DevOps ecosystem.
 
 ## Project Overview:
-Application: Simple web-based calculator application
+Application: Simple web-based calculator application  
+
 Development Framework: ASP.NET Core C# .NET 8
-Version Control: Git and GitHub
-CI/CD Pipeline: CircleCI
-Deployment Target: Azure Web App Service (PAAS)
+
+Version Control: Git and GitHub  
+CI/CD Pipeline: CircleCI  
+Deployment Target: Azure Web App Service (PAAS)  
 
 ## Development Workflow:
 Development: The application was developed using Visual Studio 2022 IDE.
