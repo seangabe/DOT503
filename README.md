@@ -46,7 +46,7 @@ The CircleCI pipeline is configured to automate the build and deployment process
 The config.yml file defines the CircleCI pipeline stages. This file can be reviewed for a detailed understanding of the build and deployment process.
 
 ## Conclusion
-This project demonstrates the implementation of a simple calculator application using the ASP.NET Core C# .NET 8 framework, along with a CI/CD pipeline using CircleCI and Azure Web Apps. By following the instructions provided in this `Readme.txt` file, you can set up and deploy the application efficiently.
+This project demonstrates the implementation of a simple calculator application using the ASP.NET Core C# .NET 8 framework, along with a CI/CD pipeline using CircleCI and Azure Web Apps. By following the instructions provided in this `Readme.md` file, you can set up and deploy the application efficiently.
 
 ## Notice:
 This project is for Torrens University DOT503 Assessment purposes only.  
