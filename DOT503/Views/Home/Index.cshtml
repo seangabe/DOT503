@@ -21,8 +21,12 @@
                     <div class="row">
                         <div class="col-md-12">
 
+<<<<<<< Updated upstream
                             <h1>Calculator</h1>
                             <h2>feature-x Branch</h2>
+=======
+                            <h1>Calculator2</h1>
+>>>>>>> Stashed changes
                             <form asp-action="Calculate" method="post">
                                 <input asp-for="FirstNumber" type="number" placeholder="First Number" />
                                 <select asp-for="Operator">
@@ -33,7 +37,7 @@
                                     <option value="%">%</option>
                                 </select>
                                 <input asp-for="SecondNumber" type="number" placeholder="Second Number" />
-                                <button type="submit">Calculate</button>
+                                <button type="submit">Calculate.</button>
                             </form>
                             @if (Model.Result.HasValue)
                             {
