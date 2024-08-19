@@ -14,7 +14,7 @@ namespace DOT503TestProject
         {
             // Arrange
             var controller = new HomeController();
-            var model = new CalculatorModel { FirstNumber = 5, SecondNumber = 3, Operator = "+" };
+            var model = new CalculatorModel { FirstNumber = 5, SecondNumber = 3, Operator = "+" }; 
 
 
             var result = controller.Calculate(model);
