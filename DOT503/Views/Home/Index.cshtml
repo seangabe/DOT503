@@ -21,7 +21,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h1>Calculator</h1>
-                            <form asp-action="Calculate" method="post">
+                            <form asp-action="Calculate Auto 1 " method="post">
                                 <input asp-for="FirstNumber" type="number" placeholder="First Number" />
                                 <select asp-for="Operator">
                                     <option value="+">+</option>
@@ -31,7 +31,7 @@
                                     <option value="%">%</option>
                                 </select>
                                 <input asp-for="SecondNumber" type="number" placeholder="Second Number" />
-                                <button type="submit">Calculate Now</button>
+                                <button type="submit">Calculate</button>
                             </form>
                             @if (Model.Result.HasValue)
                             {
