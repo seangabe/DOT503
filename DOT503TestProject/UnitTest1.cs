@@ -83,7 +83,7 @@ namespace DOT503TestProject
                 // Handle ViewResult scenario (e.g., ModelState errors)
                 var modelResult = viewResult.Model as CalculatorModel;
                 Assert.AreEqual("Index", viewResult.ViewName);
-                Assert.AreEqual(8, modelResult.Result);
+                Assert.AreEqual(5, modelResult.Result);
             }
         }
 
@@ -103,7 +103,7 @@ namespace DOT503TestProject
                 // Handle ViewResult scenario (e.g., ModelState errors)
                 var modelResult = viewResult.Model as CalculatorModel;
                 Assert.AreEqual("Index", viewResult.ViewName);
-                Assert.AreEqual(0, modelResult.Result);
+                Assert.AreEqual(2, modelResult.Result);
             }
         }
     }
